@@ -1,0 +1,2 @@
+red-panda==0.1.7
+matplotlib-hep==0.1.0
