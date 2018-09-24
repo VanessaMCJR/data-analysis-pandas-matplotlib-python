@@ -6,12 +6,6 @@ code python : main.py
 
 Example:
 
-def ratio(dictionnaire):
-  dico_ratio={}
-  for cle, valeur in dictionnaire.items():
-    dico_ratio[cle]=(valeur/mapping[cle])*100000
-  return dico_ratio 
-
 suicides_ratio = pandas.DataFrame(ratio(suicides), index =["Ratios origine par suicide"]).transpose() 
 
 
